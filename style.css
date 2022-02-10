@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family: 'Poppins';
+}
+.banner::before {
+  display: block;
+  content: '';
+  height: 70px;
+}
+.partners{
+  background-color: #f8f8f8;
+}
+.footer .list-group{
+  text-decoration: none;
+}
+@media (min-width:  768px){
+  .news{
+    width: 50%;
+  }
+}
